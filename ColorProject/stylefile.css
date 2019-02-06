@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+
+.arrow-bottom {
+  fill: white;
+  position: relative;
+  top: 2vh;
+  left: 1vw;
+  z-index: 200;
+
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 200px;
+
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 20px;
+
+}
+
+div {
+
+    position: relative;
+    margin: 30px auto;
+    padding: 10px;
+    max-width: 500px;
+    background-color: rgb(204, 204, 204);
+
+}
+#ctrlBox {
+    margin-top: 10px;
+    height: 20px;
+}
