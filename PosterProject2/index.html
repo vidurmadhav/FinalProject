@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Poster Project </title>
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One|Varela+Round" rel="stylesheet">
+  <style>
+
+
+body {
+  background-color: rgb(26, 26, 26);
+}
+
+.title {
+font-family: 'Poiret One', cursive;
+  color: white;
+  z-index: 50;
+  font-size: 3rem;
+  margin: 1vh 2vw;
+  position: relative;
+  top: -5vh;
+  left: 5vw;
+
+}
+.grey {
+  color: rgb(137, 136, 136);
+}
+
+.subTitle {
+  font-family: 'Poiret One', cursive;
+    color: rgb(137, 136, 136);
+    font-size: 1rem;
+    margin: 0vh 7vw;
+
+}
+
+.arrow-bottom {
+  fill: white;
+  position: relative;
+  top: 5vh;
+  left: 0.5vw;
+  z-index: 200;
+
+}
+
+        .boundary {
+      max-width: 550px;
+    height: 850px;
+      background: rgb(179,42,50);
+      position: relative;
+      margin: 10vh 7vw;
+      overflow: hidden;
+
+
+  }
+
+
+
+.rectangles {
+  top: -80px;
+  left: -5px;
+  position: relative;
+  transform: rotate(-45deg)
+
+}
+
+
+    .rect {
+      width: 280px;
+      height: 69px;
+    background: rgb(26, 26, 26);
+    margin: 9px;
+
+
+}
+
+.four {
+  animation-name: spin;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+animation-delay: 1s;
+}
+
+.seven {
+  animation-name: spin;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+}
+.six {
+  animation-name: spin;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+animation-delay: 2s;
+}
+.eight {
+  animation-name: spin;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+animation-delay: 5s;
+}
+  @keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+
+  .trans {
+    opacity: 0.4;
+    left: 210px;
+    position: relative;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.trans:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.solid {
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.solid:hover {
+visibility: visible;
+opacity: 0.5;
+}
+
+
+p{
+font-family: 'Varela Round', sans-serif;
+color: rgb(26, 26, 26);
+}
+
+.t1.big.left {
+  font-size: 22px;
+      line-height: 25px;
+
+  letter-spacing: -1px;
+  position: absolute;
+  left: 13px;
+  top: 670px;
+}
+
+.t2.big.left {
+  font-size: 22px;
+      line-height: 25px;
+
+  letter-spacing: -0.5px;
+  position: absolute;
+  left: 13px;
+  top: 725px;
+}
+
+.big.center {
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+
+  position: absolute;
+  left: 206px;
+  top: 700px;
+}
+
+.small{
+  font-size: 7px;
+  letter-spacing: -0.5px;
+position: absolute;
+left: 385px;
+top: 716px;
+line-height: 10px;
+}
+
+.t5{
+  font-size: 7px;
+  letter-spacing: -0.5px;
+position: absolute;
+left: 167px;
+top: 744px;
+line-height: 25px;
+}
+}
+
+</style>
+<body>
+  <a href="../index.html#firstC"> <img class="arrow-bottom"
+        src="arrow.svg"
+        alt="arrow"
+        height="40px"
+        width="40px" /></a>
+
+  <h1 class="title"><b>Swiss Star <span class="grey">by Joseph Müller-Brockmann</span></h1>
+
+<h2 class="subTitle">Hover over the grid for fun!</h2>
+
+
+<section class="boundary">
+
+
+  <div class="rectangles">
+
+    <div class="rect trans one"></div>
+    <div class="rect trans two"></div>
+    <div class="rect trans three"></div>
+    <div class="rect solid four"></div>
+      <div class="rect trans five"></div>
+    <div class="rect solid six"></div>
+    <div class="rect solid seven"></div>
+    <div class="rect solid eight"></div>
+            </div>
+
+            <div class="text">
+
+            <p class="t1 left big">
+              musica viva<br>
+            </p>
+
+              <p class="t2 left big">
+                erich schmid<br>
+              adolf neumeier<br>
+              georg kertesz
+            </p>
+
+            <p class="t3 center big">
+              goffredo petrassi<br>
+              darius milhaud<br>
+              paul hindemith<br>
+              rolf liebermann
+              </p>
+
+              <p class="t4 small">
+                ft. volkskonzert donnerstag.8.januar 1950.20.15 uhr <br>tonhalle grosser saal<br>
+              goffredo petrassi: ritzatto di don chiaciotte<br>
+              darius milhaud: konzert fur schiagzeug und orchester<br>
+              paul hindemith: -der schwanendreher- konzert fur<br> bratsche und kieines orchester<br>
+              rolf liebermann: erste sinfonie<br>
+              karten: fr. 1. 2. 3.<br>
+              vorverkauf. tonhallekasse hug co kuoni ag jecklin,<br> genossenschaftsbuchhandlung, kreditanstalt oerlikon
+            </p>
+            <p class="t5">
+              leitung<br>
+              schiagzeug<br>
+              bratsche<br>
+              <p>
+
+              </div>
+
+
+  </section>
+  </body>
+    </html>
